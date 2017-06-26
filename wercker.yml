@@ -1,0 +1,17 @@
+
+box: wercker/golang
+
+build:
+    steps:
+        - shellcheck
+        - script:
+            name: prune
+            code: |
+                rm -rf $WERCKER_ROOT/.git
+                rm $WERCKER_ROOT/.gitignore
+deploy:
+  steps:
+    - script:
+        name: debug
+        code: |-
+          ls -la
