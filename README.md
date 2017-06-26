@@ -7,7 +7,7 @@ Test that all the files are formatted properly as gofmt expect
 ```yaml
 build:
     steps:
-         - AlmogBaku/gofmt-checkt
+         - almogbaku/gofmt-checkt
 ```
 
 # License
