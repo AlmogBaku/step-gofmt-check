@@ -3,7 +3,6 @@ box: wercker/golang
 
 build:
     steps:
-        - shellcheck
         - script:
             name: prune
             code: |
