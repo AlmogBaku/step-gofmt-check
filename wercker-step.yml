@@ -1,5 +1,5 @@
 name: gofmt-check
-version: 0.9.0
+version: 0.9.1
 description: Verify that the code is formatted as gofmt requires
 keywords:
   - gofmt
